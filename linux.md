@@ -49,6 +49,10 @@ wq 保存退出
 file 看文件属性  
 ## where/which
 where 查看文件位置  
+## find
+find [路径] [匹配条件] [动作]  
+find /path/to/search -name "clean*"  循环递归查找开头为clean的文件和目录  
+find /path/to/search -type f -name "`*clean`*"  查找文件名中包含clean的文件
 # 打印 echo
 ## echo
 echo 打印文本  
