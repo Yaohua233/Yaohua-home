@@ -71,3 +71,13 @@ for>echo ${ff}
 for>done  
 
 tab键 自动补齐  
+## ps
+process status 显示当前进程的状态  
+ps [options] [--help]  
+ps -A 列出所有进程  
+ps -aux 显示所有包含其他使用者的进程的详细信息  
+
+输出格式  
+USER PID %CPU %MEM VSZ RSS TTY STAT START TIME COMMAND
+                               状态  
+ps -ef | grep 进程关键字 查找指定进程格式  
